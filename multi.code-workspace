@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "name": "main",
+      "path": "."
+    },
+    {
+      "name": "part1",
+      "path": "part1"
+    },{
+      "name": "part2",
+      "path": "part2"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "daimor.vscode-objectscript"
+    ]
+  },
+  "settings": {
+    "files.exclude": {
+      "part1": true,
+      "part2": true
+    },
+  }
+}

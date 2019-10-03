@@ -1,0 +1,12 @@
+version: '3.7'
+services: 
+  part1: 
+    build: part1
+    init: true
+    ports:
+      - 52801:52773
+  part2: 
+    build: part2
+    init: true
+    ports:
+      - 52802:52773
